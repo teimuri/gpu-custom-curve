@@ -1,6 +1,6 @@
 #!/bin/bash
 
-end_time=58
+end_time=118
 time_passed=0
 gpu_id=0
 working_dir=<path_to_working_dir> # replace with your working directory
