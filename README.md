@@ -1,7 +1,6 @@
 The purpose of this project is to be able to set custom fan curve for all the GPUs on linux server.
 This code as only been test on Ubuntu 20.04.
-<code style="color : red">Caution</code>
-Using this code comes with some degree of danger for your GPU, and in the case of an extremely unlikely catastrophic failure, you might burn out your GPU. Even though I haven't encountered any problems, I can't guarantee that you won't.
+Caution: Using this code comes with some degree of danger for your GPU, and in the case of an extremely unlikely catastrophic failure, you might burn out your GPU. Even though I haven't encountered any problems, I can't guarantee that you won't.
 
 # How to Use
 
