@@ -10,7 +10,7 @@ https://u2pia.medium.com/ubuntu-20-04-nvidia-gpu-control-through-ssh-terminal-bb
 
 1. Now execute this command. If you have more than one GPU repeate it while increasing the value for `gpu:0`. 
 ```
-sudo DISPLAY=:0 XAUTHORITY=/run/user/126/gdm/Xauthority nvidia-settings -a [gpu:0]/GPUFanControlState=1
+sudo DISPLAY=:0 XAUTHORITY=/run/user/126/gdm/Xauthority nvidia-settings -a "[gpu:0]/GPUFanControlState=1"
 ```
 Important note: You also have to execute it every time the system is reseted.
 
